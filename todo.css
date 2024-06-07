@@ -1,0 +1,80 @@
+body{
+    background-color: aliceblue;
+
+    background-image: url(https://cdn.vectorstock.com/i/500p/88/55/stationery-background-school-tools-seamless-vector-28848855.jpg);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.todoContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin: 0 auto;
+    padding-bottom: 30px ;
+    box-shadow: 0 4px 8px 0 #397058;
+    
+}
+
+.input{
+    display: flex;
+    gap: 2px;
+    /* border: 2px solid black; */
+}
+input{
+    width: 490px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: large;
+    border-radius: 5px;
+
+}
+button{
+    height: 35px;
+    width: 71px;
+    margin-left: 5px;
+    background-color: #397058;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #1b5d40;
+    border: 2px solid #397058;
+}
+ul{
+    display: flex ;
+    width: 84%;
+    flex-direction: column-reverse;
+    /* text-align: center; */
+    /* align-items: start; */
+    justify-content: center;
+    
+    /* border: 2px solid black;  */
+}
+li:first-child{
+    border-bottom: 0px solid black;
+}
+li{
+    overflow: hidden;
+    /* scrollbar-base-color: #1b5d40; */
+    position: relative;
+    list-style:none;
+    font-size: 25px;
+    /* border: 1px solid black; */
+    /* margin: 0px -40px;1 */
+    padding: 5px;
+    right:5% ;
+    border-bottom: 1px solid #1b5d40;
+}
+
+li:hover{
+    background-color: #eafae2;
+    
+}
+
