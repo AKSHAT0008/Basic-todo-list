@@ -61,6 +61,8 @@ li:first-child{
     border-bottom: 0px solid black;
 }
 li{
+    display: flex;
+    justify-content: space-between;
     overflow: hidden;
     /* scrollbar-base-color: #1b5d40; */
     position: relative;
